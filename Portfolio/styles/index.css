@@ -1,0 +1,230 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 10px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+header{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    background-image: url("https://images.wallpaperscraft.com/image/single/code_coding_binary_code_112140_3840x2160.jpg");
+    background-size: cover;
+    height: 500px;
+}
+
+header nav{
+    /* border: 1px dotted red;
+    background-color: rgba(0, 0, 0, 0.8); */
+    border-radius: 10px;
+    width: 70%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto 0;
+    padding: 0 30px;
+}
+
+header nav h1{
+    font-size: 3rem;
+}
+
+header nav ul{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-color: darkcyan;
+    border-radius: 10px;
+    list-style: none;
+    display: flex;
+}
+
+
+header nav ul li{
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 1.3rem; 
+}
+
+header nav ul li:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    padding: 20px;
+    margin: 0 10px;
+    font-size: 1.3rem; 
+}
+
+
+/* ********* BODY *********** */
+
+main{
+    /* border: 1px solid red; */
+    padding: 10px  0;
+}
+
+
+main section aside{
+    /* border: 1px solid white; */
+    position: relative;
+    bottom: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+main section aside div{
+    border: 2px solid darkcyan;
+    /* background-color: darkcyan; */
+    border-radius: 10px;
+    width: 300px;
+    height: 400px;
+    margin: 0 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 1px rgba(0, 139, 139, 0.342);
+}
+
+main section aside div:nth-child(1){
+    background-image: url('https://images.pexels.com/photos/3831845/pexels-photo-3831845.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section aside div:nth-child(2){
+    background-image: url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section aside div:nth-child(3){
+    background-image: url('https://images.pexels.com/photos/1480690/pexels-photo-1480690.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main section aside div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+main section article{
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    padding: 10px 0;
+    margin: 0 auto 20px;
+}
+
+main section article h2{
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main section article#rogrammingLanguage div#LanguageList{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 60%;
+    margin: auto;
+}
+
+main section article#rogrammingLanguage div#LanguageList div{
+    /* border: 1px solid red; */
+    margin: 15px 0;
+}
+
+main section article#rogrammingLanguage div#LanguageList div img{
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    width: 125px;
+    height: 125px;
+    margin: 6px;
+    padding: 7px;
+}
+
+
+main section article#rogrammingLanguage div#LanguageList div img:hover{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    transform: scale(1.05);
+}
+
+
+/* skillsList */
+main section article#skills div#skillsList{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+}
+
+main section article#skills div#skillsList div.skillsList-items {
+    /* border: 1px solid blue; */
+    background-color: rgba(0, 139, 139, 0.342);
+    width: 45%;
+    margin: 10px 0;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+main section article#skills div#skillsList div.skillsList-items h3 {
+    /* border: 1px solid blue; */
+    margin: 10px 0;
+    text-align: center;
+    font-size: 1.3rem;
+
+}
+
+main section article#skills div#skillsList div.skillsList-item {
+    /* border: 1px solid red; */
+    margin-bottom: 20px;
+}
+
+main section article#skills div#skillsList div.skillsList-item h4{
+    /* border: 1px solid red; */
+    margin-left: 5px;
+}
+
+
+main section article#skills div#skillsList div.skillsList-item div.progress-border {
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 100%;
+    border-radius: 10px;
+}
+
+main section article#skills div#skillsList div.skillsList-item div.progress-border div.progress-content{
+    border: 2px solid rgba(0, 0, 0, 0.6);
+    background-color: rgba(255, 255, 255, 0.3);
+    background-color: orange;
+    border-radius: 10px;
+    height: 10px;
+}
+
+
+
+/* Footer */
+footer{
+    height: 200px;
+    border: 1px solid white;
+    padding: 10px 0;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+footer h2{ 
+    text-align: center;
+}
